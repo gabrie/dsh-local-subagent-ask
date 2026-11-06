@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Local Subagent Ask Gate",
+    "description": "On a local model (Strata single slot), creating a subagent pops an approval prompt first; online lines delegate without prompting."
+  }
+}

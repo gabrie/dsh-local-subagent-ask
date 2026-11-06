@@ -1,0 +1,5 @@
+# Bundle patch layer: mounts the local-subagent-ask gate on the profile root.
+- insert:
+    - id: local-subagent-ask
+      name: 'dsh-local-subagent-ask'
+      config: {}

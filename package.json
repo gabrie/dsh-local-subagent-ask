@@ -1,0 +1,29 @@
+{
+  "name": "dsh-local-subagent-ask",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Gate subagent creation on local model lines: pops an approval ask before the subagent starts when the calling agent's model endpoint is 127.0.0.1:8080 (Strata single slot); passes online lines through untouched.",
+  "exports": {
+    ".": "./index.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "cordis.patch.yml",
+    "locale/en.json",
+    "locale/zh.json",
+    "icon.svg"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "peerDependencies": {
+    "@deepseek-ai/cordis": "^4.0.4",
+    "@deepseek-ai/schemastery": "^3.18.4"
+  }
+}
