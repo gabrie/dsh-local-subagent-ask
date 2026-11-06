@@ -1,3 +1,8 @@
+/*
+ * dsh-local-subagent-ask — gate subagent creation on local model lines.
+ * Copyright (C) 2026 Gabrie
+ * SPDX-License-Identifier: GPL-3.0-or-later
+ */
 import z from '@deepseek-ai/schemastery'
 
 export const inject = ['llm', 'settings', 'approval', 'userQuestions']

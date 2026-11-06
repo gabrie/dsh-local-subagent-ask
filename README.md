@@ -113,3 +113,7 @@ dsh plugin --profile web remove dsh-local-subagent-ask
 
 - `@deepseek-ai/cordis` ^4.0.4, `@deepseek-ai/schemastery` ^3.18.4 (peer deps, provided by the harness)
 - Injected services: `llm`, `settings`, `approval`, `userQuestions` (DSH built-ins)
+
+## License
+
+[GPL-3.0-or-later](LICENSE) — free to use, modify, and redistribute; anyone who distributes this plugin or a modified version must release it under the same license with full source code.
