@@ -2,9 +2,18 @@
   "name": "dsh-local-subagent-ask",
   "version": "1.0.0",
   "license": "GPL-3.0-or-later",
-  "private": true,
   "type": "module",
   "description": "Gate subagent creation on local model lines: pops an approval ask before the subagent starts when the calling agent's model endpoint is 127.0.0.1:8080 (Strata single slot); passes online lines through untouched.",
+  "keywords": ["dsh-plugin", "dsh", "deepseek-harness", "cordis", "subagent", "local-model", "strata"],
+  "author": "Gabrie",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabrie/dsh-local-subagent-ask.git"
+  },
+  "homepage": "https://github.com/gabrie/dsh-local-subagent-ask#readme",
+  "bugs": {
+    "url": "https://github.com/gabrie/dsh-local-subagent-ask/issues"
+  },
   "exports": {
     ".": "./index.js",
     "./locale/*.json": "./locale/*.json",

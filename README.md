@@ -28,8 +28,10 @@
 ### 安装
 
 ```bash
-dsh plugin --profile web add /path/to/dsh-local-subagent-ask
+dsh plugin --profile web add dsh-local-subagent-ask
 ```
+
+（从 npm 安装；也可从本地目录装：`dsh plugin --profile web add /path/to/dsh-local-subagent-ask`）
 
 装完**重启 harness**（插件在重启后的 composition 里加载），重启后：
 
@@ -85,8 +87,10 @@ Key properties:
 ### Install
 
 ```bash
-dsh plugin --profile web add /path/to/dsh-local-subagent-ask
+dsh plugin --profile web add dsh-local-subagent-ask
 ```
+
+(Installs from npm; from a local checkout instead: `dsh plugin --profile web add /path/to/dsh-local-subagent-ask`)
 
 **Restart the harness** afterwards (the plugin loads in the composition built after install), then:
 
