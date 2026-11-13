@@ -1,3 +1,5 @@
 # Muse connector test
 
-Version 1. This file was created by Miji to test the GitHub connector. It will be modified, reviewed, merged, and then deleted.
+Version 2. This file was created by Miji to test the GitHub connector, and this second commit proves in-place modification works.
+
+Line for a review comment to attach to.
